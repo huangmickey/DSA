@@ -1,4 +1,4 @@
-package ctci.ch1;
+package ctci.ch1_arrays_and_strings;
 
 /**
  * Is Unique: Implement an algorithm to determine if a string has all unique characters.
