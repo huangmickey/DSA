@@ -9,9 +9,13 @@ package ctci.ch1_arrays_and_strings;
 public class URLify {
     public static void main(String[] args) {
         System.out.println(URLify("Mr John Smith    ", 13));
-        System.out.println(URLify("Ms Abigail T. May    ", 17));
+        System.out.println(URLify("Ms Abigail T. May      ", 17));
     }
 
+    /**
+     *  O(n)
+     *  O(1)
+     */
     public static String URLify(String s, int length) {
 
         char[] charArr = s.toCharArray();
